@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="OK"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BARCODE"
+            android:textColor="#AD807D"
+            android:textSize="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_barcode"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textColor="#AD807D"
+            android:textSize="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#000000"></LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NET WEIGHT"
+            android:textColor="#AD807D"
+            android:textSize="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_weight"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXPIRATION DATE"
+            android:textColor="#AD807D"
+            android:textSize="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUMBER OF ORYOR"
+            android:textColor="#AD807D"
+            android:textSize="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+    </LinearLayout>
+</LinearLayout>
